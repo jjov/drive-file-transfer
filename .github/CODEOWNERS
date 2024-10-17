@@ -3,3 +3,4 @@
 *.json   @jjov
 *.mjs    @jjov
 *.md     @jjov
+.gitignore     @jjov
