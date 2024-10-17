@@ -1,5 +1,1 @@
-*.ts     @jjov
-*.js     @jjov
-*.json   @jjov
-*.mjs    @jjov
-*.md     @jjov
+* @jjov
