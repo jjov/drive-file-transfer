@@ -63,3 +63,12 @@ To obtain the GOOGLE_CREDENTIALS single-line JSON from your Google Drive account
 
 For further Google configuration please follow below link:
 https://developers.google.com/drive/api/quickstart/nodejs
+
+## INTEGRATION TEST
+This project has a couple of integration test created using *Jest*
+
+For this particular test case **`"Get file from Drive"`** it is required to change the hardcoded text `"your_file_name.png"` by the name of an existing file in the Google Drive Account you are integrating with
+
+## KNOWN ISSUES
+- You need to make sure to grant access to the application email account you setup to the individual files or directories in Google Drive
+- When running test, this application stores the downloaded file in `/tmp/filename` so make sure you have grants to write in that location
